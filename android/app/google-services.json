@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132531003428",
+    "firebase_url": "https://mapalarm-7bdad.firebaseio.com",
+    "project_id": "mapalarm-7bdad",
+    "storage_bucket": "mapalarm-7bdad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132531003428:android:3f87f623548454c98db8b1",
+        "android_client_info": {
+          "package_name": "com.mapalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132531003428-l340jf3ne8pcs2ub8amderlev022icn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapalarm",
+            "certificate_hash": "a8fbe911958c4aceeaadda65d737e44d3dd8577c"
+          }
+        },
+        {
+          "client_id": "132531003428-d8h1akmh6jae28i08mehnm0oqe3lj28p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6oAdHj5okYJuRYQu4ieK9EkJ41Fgsoio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132531003428-d8h1akmh6jae28i08mehnm0oqe3lj28p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
