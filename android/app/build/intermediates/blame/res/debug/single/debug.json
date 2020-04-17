@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_info_window.xml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\layout\\amu_info_window.xml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_mtrl_bottom_sheet_slide_out.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_out.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_poly_style_boolean_alpha.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_alpha.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
@@ -260,6 +268,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\d051f9bed7d20519b7150e7f299b5ce2\\jetified-react-native-0.62.2\\res\\anim\\catalyst_fade_out.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -344,6 +356,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\animator\\mtrl_extended_fab_hide_motion_spec.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_multigeometry_placemarks.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multigeometry_placemarks.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
     },
@@ -374,6 +390,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_unsupported.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unsupported.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -416,12 +436,12 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
     },
     {
-        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_layout.xml.flat",
-        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\layout\\text_view_with_line_height_from_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_layout.xml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\layout\\text_view_with_line_height_from_layout.xml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -572,6 +592,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_inline_style.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_inline_style.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
@@ -700,6 +724,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_basic_placemark.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_placemark.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -766,6 +794,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_cdata.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_cdata.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -952,6 +984,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\0cf63e71d49d43fdcd6ae40edf26684c\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_card_state_list_anim.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\animator\\mtrl_card_state_list_anim.xml"
     },
@@ -994,6 +1030,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_extended_fab_change_size_motion_spec.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\animator\\mtrl_extended_fab_change_size_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_visibility_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_visibility_ground_overlay.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_text_input_date.xml.flat",
@@ -1084,6 +1124,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_poly_style_boolean_numeric.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_numeric.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1114,6 +1158,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_text_bubble.xml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\layout\\amu_text_bubble.xml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_push_up_in.xml.flat",
@@ -1158,6 +1206,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\8bfd213f328a50405931b87f9b273418\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_nested_multigeometry.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_multigeometry.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
@@ -1218,6 +1270,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_fragment_open_enter.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\b9e015eb57183211b0d3e8675aa749d5\\fragment-1.2.1\\res\\anim\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_nested_folders.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_folders.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_appearance.xml.flat",
@@ -1478,6 +1534,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_default_balloon.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_default_balloon.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
@@ -1920,6 +1980,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_webview.xml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\layout\\amu_webview.xml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
@@ -1996,6 +2060,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_mask.9.png"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
@@ -2018,6 +2086,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_extended_fab_state_list_animator.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\animator\\mtrl_extended_fab_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -2090,6 +2162,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_unknwown_folder.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unknwown_folder.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -2244,6 +2320,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_multiple_placemarks.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multiple_placemarks.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_fragment_close_exit.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\b9e015eb57183211b0d3e8675aa749d5\\fragment-1.2.1\\res\\anim\\fragment_close_exit.xml"
     },
@@ -2316,6 +2396,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_basic_folder.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_folder.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -2326,6 +2410,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_checked_circle.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\drawable\\ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ground_overlay_color.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay_color.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
@@ -2382,6 +2470,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ballon_gx_prefix.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ballon_gx_prefix.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_off_to_on_mtrl_animation.xml.flat",
@@ -2490,6 +2582,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_on_mtrl.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_draw_order_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_draw_order_ground_overlay.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2608,12 +2704,20 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_document_nest.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_document_nest.kml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_without_line_height.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\67433b4790e7c89809ecf7233c776247\\material-1.1.0\\res\\layout\\text_view_without_line_height.xml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_view.xml.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\d051f9bed7d20519b7150e7f299b5ce2\\jetified-react-native-0.62.2\\res\\layout\\redbox_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_extended_data.kml.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\raw\\amu_extended_data.kml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
@@ -2646,6 +2750,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\8bfd213f328a50405931b87f9b273418\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\15f1976f4fd9ca5b5661e242a8fe9f18\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
