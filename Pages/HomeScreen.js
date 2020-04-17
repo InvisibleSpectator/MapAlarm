@@ -6,6 +6,10 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import { Container, Header, Left, Icon, Button, Body, Right, Content, Drawer } from 'native-base';
 
+import MapboxGL from "@react-native-mapbox-gl/maps";
+MapboxGL.setAccessToken("pk.eyJ1IjoibWF0dmVldnYiLCJhIjoiY2s5NGYwaTFuMDQ1YTNmb2J3OWlpZ2dkNCJ9.aA1eFve8FXor95XfItd7YQ");
+MapboxGL.setConnected(true);
+
 // const Drawer = createDrawerNavigator();
 // function MapScreen() {
 //   return <View />;
@@ -42,6 +46,13 @@ export default class HomeScreen extends React.Component {
             <Body />
             <Right />
           </Header>
+          <MapboxGL.MapView style={{ flex: 1 }} >
+          <MapboxGL.PointAnnotation
+        id={'1'}
+        title='Test'
+        coordinate={[-73.98330688476561, 40.76975180901395]}>
+      </MapboxGL.PointAnnotation>
+          </MapboxGL.MapView>
         </Container>
       </Drawer>
     );
