@@ -6,14 +6,14 @@
  * @flow strict-local
  */
 
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator, HeaderTitle } from '@react-navigation/stack';
 
 import LoginScreen from './Pages/LoginScreen';
 import HomeScreen from './Pages/HomeScreen';
-import {Button, Root} from 'native-base';
+import { Button, Root, Header } from 'native-base';
 
 // const [initializing, setInitializing] = useState(true);
 // const [user, setUser] = useState();
@@ -24,15 +24,11 @@ class App extends React.Component {
     return (
       <Root>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Login">
+          <Stack.Navigator initialRouteName="Home" headerMode='none'>
             <Stack.Screen name="Login" component={LoginScreen} />
             <Stack.Screen
               name="Home"
-              options={{
-                headerLeft: () => (
-                  <Button color="#12351" onPress={() => this.props.nav} />
-                ),
-              }}
+
               component={HomeScreen}
             />
             {/* <Stack.Screen name="Edit" component={EditAlarmScreen} /> */}

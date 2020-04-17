@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+            "outputFile": "C:\\Users\\Vladislav\\Documents\\GitHub\\Golovnin\\MapAlarm\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\606e4eb6adf8f8e51396b632442e6d28\\jetified-play-services-basement-17.0.0\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\d81de9816b7e2cfdde8b9ac8b5beadc7\\jetified-play-services-basement-17.0.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
