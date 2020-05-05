@@ -11,16 +11,28 @@ import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, HeaderTitle } from '@react-navigation/stack';
 
+
+
 import LoginScreen from './Pages/LoginScreen';
 import HomeScreen from './Pages/HomeScreen';
+import EditAlarmScreen from './Pages/EditAlarmScreen'
 import { Button, Root, Header } from 'native-base';
+import Alarm from './Model/Alarm';
+import Database from './Model/Database';
 
 // const [initializing, setInitializing] = useState(true);
 // const [user, setUser] = useState();
 
 const Stack = createStackNavigator();
 class App extends React.Component {
+
+constructor(){
+super();
+Database.initDB();
+}
+
   render() {
+    
     return (
       <Root>
         <NavigationContainer>
@@ -31,7 +43,7 @@ class App extends React.Component {
 
               component={HomeScreen}
             />
-            {/* <Stack.Screen name="Edit" component={EditAlarmScreen} /> */}
+            <Stack.Screen name="Edit" component={EditAlarmScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </Root>

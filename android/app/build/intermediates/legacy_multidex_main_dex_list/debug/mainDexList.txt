@@ -293,6 +293,8 @@ io/invertase/firebase/app/ReactNativeFirebaseAppPackage.class
 io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class
 io/invertase/firebase/common/ReactNativeFirebaseModule.class
 io/invertase/firebase/interfaces/ContextProvider.class
+io/requery/android/database/sqlite/SQLiteDatabase$ConflictAlgorithm.class
+io/requery/android/database/sqlite/SQLiteDatabase$OpenFlags.class
 javax/annotation/CheckForNull.class
 javax/annotation/CheckForSigned.class
 javax/annotation/CheckReturnValue.class

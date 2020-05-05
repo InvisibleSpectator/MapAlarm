@@ -29,6 +29,8 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-sqlite-2
+import dog.craftz.sqlite_2.RNSqlite2Package;
 // react-native-sqlite-storage
 import org.pgsqlite.SQLitePluginPackage;
 // react-native-vector-icons
@@ -87,6 +89,7 @@ public class PackageList {
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
+      new RNSqlite2Package(),
       new SQLitePluginPackage(),
       new VectorIconsPackage()
     ));
