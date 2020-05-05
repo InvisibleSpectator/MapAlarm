@@ -9,23 +9,23 @@
 9        android:targetSdkVersion="28" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e9bf86e081c69290be8b8144eb1a99a3\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e9bf86e081c69290be8b8144eb1a99a3\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_auth] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
-14-->[:react-native-firebase_auth] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+14-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:react-native-firebase_auth] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-15-->[:react-native-firebase_auth] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+15-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->[:react-native-maps] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
-16-->[:react-native-maps] C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+16-->[:react-native-maps] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+16-->[:react-native-maps] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
 17
 18    <uses-feature
 18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
@@ -41,64 +41,64 @@
 22-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 23
 24    <application
-24-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:6:5-29:19
+24-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:6:5-29:19
 25        android:name="com.mapalarm.MainApplication"
-25-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:7:7-38
+25-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:7:7-38
 26        android:allowBackup="false"
-26-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:11:7-34
+26-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:11:7-34
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\8bfd213f328a50405931b87f9b273418\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:9:7-41
+29-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:9:7-41
 30        android:label="@string/app_name"
-30-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:8:7-39
+30-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:8:7-39
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:10:7-52
+31-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:10:7-52
 32        android:theme="@style/AppTheme"
-32-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:12:7-38
+32-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:12:7-38
 33        android:usesCleartextTraffic="true" >
-33-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\debug\AndroidManifest.xml:7:18-53
+33-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\debug\AndroidManifest.xml:7:18-53
 34        <meta-data
-34-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:13:7-15:63
+34-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:13:7-15:63
 35            android:name="com.google.android.geo.API_KEY"
-35-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:14:6-51
+35-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:14:6-51
 36            android:value="AIzaSyAJBeik7x5EjWfaJRA0KPnALv0iOIZbX0M" />
-36-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:15:6-61
+36-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:15:6-61
 37
 38        <uses-library
-38-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:16:6-84
+38-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:6-84
 39            android:name="org.apache.http.legacy"
-39-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:16:20-57
+39-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:20-57
 40            android:required="false" />
-40-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:16:58-82
+40-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:58-82
 41
 42        <activity
-42-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:17:7-27:18
+42-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:17:7-27:18
 43            android:name="com.mapalarm.MainActivity"
-43-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:18:9-37
+43-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:18:9-37
 44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-44-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:20:9-86
+44-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:20:9-86
 45            android:label="@string/app_name"
-45-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:19:9-41
+45-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:19:9-41
 46            android:launchMode="singleTask"
-46-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:21:9-40
+46-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:21:9-40
 47            android:windowSoftInputMode="adjustResize" >
-47-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:22:9-51
+47-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:22:9-51
 48            <intent-filter>
-48-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:23:9-26:25
+48-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:23:9-26:25
 49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:24:13-65
-49-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:24:21-62
+49-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:24:13-65
+49-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:24:21-62
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:25:13-73
-51-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:25:23-70
+51-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:13-73
+51-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:23-70
 52            </intent-filter>
 53        </activity>
 54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-54-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:28:7-84
-54-->C:\Users\Vladislav\Documents\GitHub\Golovnin\MapAlarm\android\app\src\main\AndroidManifest.xml:28:17-81
+54-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:28:7-84
+54-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:28:17-81
 55        <activity
 55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
 56            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
@@ -223,11 +223,11 @@
 120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
 121
 122        <meta-data
-122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d81de9816b7e2cfdde8b9ac8b5beadc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 123            android:name="com.google.android.gms.version"
-123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d81de9816b7e2cfdde8b9ac8b5beadc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 124            android:value="@integer/google_play_services_version" />
-124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d81de9816b7e2cfdde8b9ac8b5beadc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 125    </application>
 126
 127</manifest>

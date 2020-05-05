@@ -1,10 +1,10 @@
 import auth from '@react-native-firebase/auth';
 import React from 'react';
-import { View, TextInput, Button } from 'react-native';
-import { Toast, Input, Item, Label, Icon } from 'native-base';
+import {View, TextInput, Button} from 'react-native';
+import {Toast, Input, Item, Label, Icon} from 'native-base';
 
 export default class LoginScreen extends React.Component {
-  state = { email: '', password: '', currentUser: auth().currentUser };
+  state = {email: '', password: '', currentUser: auth().currentUser};
 
   componentDidMount() {
     // const {currentUser} = 'asdas';
@@ -23,27 +23,46 @@ export default class LoginScreen extends React.Component {
     let isPasswordGood = this.state.password.length >= 6;
     return (
       <View>
-        <Item floatingLabel success={this.state.email.length > 0 && isEmail} error={this.state.email.length > 0 && !isEmail} >
+        <Item
+          floatingLabel
+          success={this.state.email.length > 0 && isEmail}
+          error={this.state.email.length > 0 && !isEmail}>
           <Label>email</Label>
           <Input
             onChangeText={email =>
-              this.setState({ email: email.replace(/\s+/g, ' ').trim() })
+              this.setState({email: email.replace(/\s+/g, ' ').trim()})
             }
             value={this.state.email}
           />
-          {(() => { if (this.state.email.length > 0) return isEmail ? <Icon name="checkmark-circle" /> : <Icon name="close-circle" /> })()}
-
+          {(() => {
+            if (this.state.email.length > 0)
+              return isEmail ? (
+                <Icon name="checkmark-circle" />
+              ) : (
+                <Icon name="close-circle" />
+              );
+          })()}
         </Item>
-        <Item floatingLabel success={this.state.password.length > 0 && isPasswordGood} error={this.state.password.length > 0 && !isPasswordGood}>
+        <Item
+          floatingLabel
+          success={this.state.password.length > 0 && isPasswordGood}
+          error={this.state.password.length > 0 && !isPasswordGood}>
           <Label>password</Label>
           <Input
             secureTextEntry
             onChangeText={password =>
-              this.setState({ password: password.replace(/\s+/g, ' ').trim() })
+              this.setState({password: password.replace(/\s+/g, ' ').trim()})
             }
             value={this.state.password}
           />
-          {(() => { if (this.state.password.length > 0) return isPasswordGood ? <Icon name="checkmark-circle" /> : <Icon name="close-circle" /> })()}
+          {(() => {
+            if (this.state.password.length > 0)
+              return isPasswordGood ? (
+                <Icon name="checkmark-circle" />
+              ) : (
+                <Icon name="close-circle" />
+              );
+          })()}
         </Item>
         <Button
           title="Зарегистрироваться"
@@ -61,7 +80,7 @@ export default class LoginScreen extends React.Component {
                   text: 'Wrong password!',
                   type: 'warning',
                 }),
-              )
+              );
           }}
         />
         <Button
