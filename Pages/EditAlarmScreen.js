@@ -27,8 +27,8 @@ export default class EditAlarmScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = JSON.parse(this.props.route.params.alarm);
-    this.weekdaysKeys = Object.keys(this.state.options);
-    console.log(this.props.route.params.alarm);
+    //console.log(this.state.options);
+    //this.weekdaysKeys = Object.keys(this.state.options);
   }
 
   render() {
@@ -70,22 +70,21 @@ export default class EditAlarmScreen extends React.Component {
               }
             />
           </Item>
-          {this.weekdaysKeys.map(weekday => {
+          {this.state.options.map((weekday, index) => {
             return (
-              <ListItem key={weekday}>
+              <ListItem key={JSON.stringify(weekday)}>
                 <CheckBox
-                  checked={this.state.options[weekday]}
+                  checked={weekday.value}
                   onPress={() => {
+                    let tmp = this.state.options;
+                    tmp[index].value = !tmp[index].value;
                     this.setState({
-                      options: {
-                        ...this.state.options,
-                        [`${weekday}`]: !this.state.options[weekday],
-                      },
+                      options: tmp,
                     });
                   }}
                 />
                 <Body>
-                  <Text>{weekday}</Text>
+                  <Text>{weekday.name}</Text>
                 </Body>
               </ListItem>
             );

@@ -1,36 +1,35 @@
-import SQLite from "react-native-sqlite-2";
+import SQLite from 'react-native-sqlite-2';
 
 export default class Database {
   static db = SQLite.openDatabase('Alarm.db');
 
   static initDB = () => {
-    this.db.transaction(function (txn) {
+    this.db.transaction(function(txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='alarms'",
         [],
-        function (tx, res) {
+        function(tx, res) {
           console.log('item:', res.rows.length);
           if (res.rows.length == 0) {
             txn.executeSql('DROP TABLE IF EXISTS alarms', []);
             txn.executeSql(
               `CREATE TABLE IF NOT EXISTS alarms (
-                id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
-                name TEXT NOT NULL, 
+                id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                name TEXT NOT NULL,
                 time INTEGER NOT NULL,
-                options TEXT NOT NULL, 
+                options TEXT NOT NULL,
                 isActive INTEGER NOT NULL,
                 isLocationBound INTEGER NOT NULL,
-                location TEXT NOT NULL, 
+                location TEXT NOT NULL,
                 description TEXT NOT NULL
                 )`,
-              []
+              [],
             );
           }
-        }
+        },
       );
     });
-  }
-
+  };
 
   // ExecuteQuery = (sql, params = []) => new Promise((resolve, reject) => {
   //   db.transaction((trans) => {
@@ -51,19 +50,19 @@ export default class Database {
       alarm.isActive,
       alarm.isLocationBound,
       JSON.stringify(alarm.location),
-      alarm.description
+      alarm.description,
     ];
-    this.db.transaction(function (txn) {
+    this.db.transaction(function(txn) {
       txn.executeSql(
         `INSERT INTO alarms (
-          name, 
-          time, 
-          options, 
-          isActive, 
-          isLocationBound, 
-          location, 
+          name,
+          time,
+          options,
+          isActive,
+          isLocationBound,
+          location,
           description
-          ) 
+          )
           VALUES (?,?,?,?,?,?,?)`,
         temp,
         (tx, results) => {
@@ -72,12 +71,12 @@ export default class Database {
         },
         (tx, error) => {
           console.log('Error', error);
-        }
-      )
-    })
+        },
+      );
+    });
   }
 
-  static updateAlarm(alarm, callback = () => { }) {
+  static updateAlarm(alarm, callback = () => {}) {
     let temp = [
       alarm.name,
       alarm.time,
@@ -86,17 +85,17 @@ export default class Database {
       alarm.isLocationBound,
       JSON.stringify(alarm.location),
       alarm.description,
-      alarm.id
+      alarm.id,
     ];
-    this.db.transaction(function (txn) {
+    this.db.transaction(function(txn) {
       txn.executeSql(
         `UPDATE alarms set
-          name=?, 
-          time=?, 
-          options=?, 
-          isActive=?, 
-          isLocationBound=?, 
-          location=?, 
+          name=?,
+          time=?,
+          options=?,
+          isActive=?,
+          isLocationBound=?,
+          location=?,
           description=?
           WHERE id=?
          `,
@@ -107,42 +106,32 @@ export default class Database {
         },
         (tx, error) => {
           console.log('Error', error);
-        }
-      )
-    })
+        },
+      );
+    });
   }
 
   static deleteAlarm(id, callback) {
-    this.db.transaction((txn) => {
-      txn.executeSql(
-        "DELETE FROM alarms where id=?",
-        [id],
-        (tx, results) => {
-          callback();
-        },
-      )
-    }
-    )
+    this.db.transaction(txn => {
+      txn.executeSql('DELETE FROM alarms where id=?', [id], (tx, results) => {
+        callback();
+      });
+    });
   }
 
-  static selectAll(resFunction, resFunction2 = () => { }) {
-    this.db.transaction((txn) => {
-      txn.executeSql(
-        "SELECT * FROM alarms",
-        [],
-        (tx, results) => {
-          var temp = [];
-          for (let i = 0; i < results.rows.length; ++i) {
-            let alarm = results.rows.item(i);
-            alarm.options = JSON.parse(alarm.options);
-            alarm.location = JSON.parse(alarm.location);
-            temp.push(alarm);
-          }
-          resFunction(temp);
-          resFunction2();
+  static selectAll(resFunction, resFunction2 = () => {}) {
+    this.db.transaction(txn => {
+      txn.executeSql('SELECT * FROM alarms', [], (tx, results) => {
+        var temp = [];
+        for (let i = 0; i < results.rows.length; ++i) {
+          let alarm = results.rows.item(i);
+          alarm.options = JSON.parse(alarm.options);
+          alarm.location = JSON.parse(alarm.location);
+          temp.push(alarm);
         }
-      )
-    }
-    )
+        resFunction(temp);
+        resFunction2();
+      });
+    });
   }
 }
