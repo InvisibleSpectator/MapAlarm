@@ -78,8 +78,8 @@ export default class HomeScreen extends React.Component {
             onSelect={coords => {
               let region = {
                 ...coords,
-                latitudeDelta: 0.0922,
-                longitudeDelta: 0.0421,
+                latitudeDelta: 0,
+                longitudeDelta: 0,
               };
               console.log(region);
               this.closeDrawer();
@@ -113,6 +113,7 @@ export default class HomeScreen extends React.Component {
               .filter(alarm => alarm.isActive && alarm.isLocationBound)
               .map(alarm => (
                 <MapAlarmCard
+                  key={JSON.stringify(alarm)}
                   navigation={this.props.navigation}
                   alarm={alarm}
                   onDelete={() => {

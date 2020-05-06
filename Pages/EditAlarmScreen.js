@@ -19,7 +19,7 @@ import {
   Switch,
 } from 'native-base';
 import {BaseRouter} from '@react-navigation/native';
-import {format} from 'date-fns';
+import {format, isThisSecond} from 'date-fns';
 import TimePicker from 'react-native-simple-time-picker';
 import Database from '../Model/Database';
 
@@ -107,7 +107,16 @@ export default class EditAlarmScreen extends React.Component {
               }}
             />
           </Item>
-          <Item disabled>
+          <Item
+            onPress={() => {
+              if (this.state.isLocationBound) {
+                this.props.navigation.navigate('EditCoordinates', {
+                  getCoords: coords => {
+                    this.setState({location: coords});
+                  },
+                });
+              }
+            }}>
             <Input
               disabled
               placeholder={`Широта: ${this.state.location.latitude}`}
