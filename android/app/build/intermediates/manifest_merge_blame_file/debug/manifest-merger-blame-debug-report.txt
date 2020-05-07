@@ -14,220 +14,341 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:4:5-67
 12-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
-14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
-14-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-15-->[:react-native-firebase_auth] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
-16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->[:react-native-maps] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
-16-->[:react-native-maps] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
-17
-18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-20        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
-21-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
-22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-22-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
-22-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
-23
-24    <application
-24-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:6:5-29:19
-25        android:name="com.mapalarm.MainApplication"
-25-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:7:7-38
-26        android:allowBackup="false"
-26-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:11:7-34
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\8bfd213f328a50405931b87f9b273418\core-1.1.0\AndroidManifest.xml:24:18-86
-28        android:debuggable="true"
-29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:9:7-41
-30        android:label="@string/app_name"
-30-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:8:7-39
-31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:10:7-52
-32        android:theme="@style/AppTheme"
-32-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:12:7-38
-33        android:usesCleartextTraffic="true" >
-33-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\debug\AndroidManifest.xml:7:18-53
-34        <meta-data
-34-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:13:7-15:63
-35            android:name="com.google.android.geo.API_KEY"
-35-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:14:6-51
-36            android:value="AIzaSyAJBeik7x5EjWfaJRA0KPnALv0iOIZbX0M" />
-36-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:15:6-61
-37
-38        <uses-library
-38-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:6-84
-39            android:name="org.apache.http.legacy"
-39-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:20-57
-40            android:required="false" />
-40-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:58-82
-41
-42        <activity
-42-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:17:7-27:18
-43            android:name="com.mapalarm.MainActivity"
-43-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:18:9-37
-44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-44-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:20:9-86
-45            android:label="@string/app_name"
-45-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:19:9-41
-46            android:launchMode="singleTask"
-46-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:21:9-40
-47            android:windowSoftInputMode="adjustResize" >
-47-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:22:9-51
-48            <intent-filter>
-48-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:23:9-26:25
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:24:13-65
-49-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:24:21-62
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.hardware.location" />
+14-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-65
+14-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:22-62
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-68
+15-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-79
+16-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-81
+17-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-78
+18    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+18-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-89
+18-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-86
+19    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+19-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-94
+19-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-91
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-81
+20-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-78
+21    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+21-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-77
+21-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:22-74
+22    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+22-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-78
+22-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-75
+23    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+23-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-80
+23-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:22-77
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:5-77
+24-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:22-74
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.33.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ccce063607d6b04a38051d82710824b1\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+29        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b1342c8bc6062b38c4be3b84595fec1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:7:5-30:19
+34        android:name="com.mapalarm.MainApplication"
+34-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:8:7-38
+35        android:allowBackup="false"
+35-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:12:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\8bfd213f328a50405931b87f9b273418\core-1.1.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:10:7-41
+39        android:label="@string/app_name"
+39-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:9:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:11:7-52
+41        android:theme="@style/AppTheme"
+41-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:13:7-38
+42        android:usesCleartextTraffic="true" >
+42-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\debug\AndroidManifest.xml:7:18-53
+43        <meta-data
+43-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:14:7-16:63
+44            android:name="com.google.android.geo.API_KEY"
+44-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:15:6-51
+45            android:value="AIzaSyAJBeik7x5EjWfaJRA0KPnALv0iOIZbX0M" />
+45-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:16:6-61
+46
+47        <uses-library
+47-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:17:6-84
+48            android:name="org.apache.http.legacy"
+48-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:17:20-57
+49            android:required="false" />
+49-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:17:58-82
 50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:13-73
-51-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:23-70
-52            </intent-filter>
-53        </activity>
-54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-54-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:28:7-84
-54-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:28:17-81
-55        <activity
-55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
-56            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
-57            android:excludeFromRecents="true"
-57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
-58            android:exported="true"
-58-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
-59            android:launchMode="singleTask"
-59-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
-60            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-60-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
-61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-61-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
-62
-63        <service
-63-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
-64            android:name="com.google.firebase.components.ComponentDiscoveryService"
-64-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
-65            android:exported="false" >
-65-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
-66            <meta-data
-66-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
-67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-67-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
-68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
-69            <meta-data
-69-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-70                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-70-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-72            <meta-data
-72-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
-73                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-73-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
-75        </service>
-76
-77        <receiver
-77-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
-78            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
-79            android:exported="true"
-79-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
-80            android:permission="com.google.android.c2dm.permission.SEND" >
-80-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
-81            <intent-filter>
-81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
-82                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
-82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
-83            </intent-filter>
-84        </receiver>
-85
-86        <activity
-86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-88            android:exported="false"
-88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-90
-91        <provider
-91-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-92            android:name="com.google.firebase.provider.FirebaseInitProvider"
-92-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-93            android:authorities="com.mapalarm.firebaseinitprovider"
-93-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-94            android:exported="false"
-94-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-95            android:initOrder="100" />
-95-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-96
-97        <receiver
-97-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-98-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+51        <activity
+51-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:18:7-28:18
+52            android:name="com.mapalarm.MainActivity"
+52-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:19:9-37
+53            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+53-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:21:9-86
+54            android:label="@string/app_name"
+54-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:20:9-41
+55            android:launchMode="singleTask"
+55-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:22:9-40
+56            android:windowSoftInputMode="adjustResize" >
+56-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:23:9-51
+57            <intent-filter>
+57-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:24:9-27:25
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:13-65
+58-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:25:21-62
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:26:13-73
+60-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:26:23-70
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+63-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:29:7-84
+63-->C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\android\app\src\main\AndroidManifest.xml:29:17-81
+64
+65        <service
+65-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-55:19
+66            android:name="com.marianhello.bgloc.sync.SyncService"
+66-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-66
+67            android:exported="true"
+67-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-36
+68            android:process=":sync" >
+68-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-36
+69            <intent-filter>
+69-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-50:29
+70                <action android:name="android.content.SyncAdapter" />
+70-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-70
+70-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:25-67
+71            </intent-filter>
+72
+73            <meta-data
+73-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-54:55
+74                android:name="android.content.SyncAdapter"
+74-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-59
+75                android:resource="@xml/syncadapter" />
+75-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-52
+76        </service>
+77        <service android:name="com.marianhello.bgloc.sync.AuthenticatorService" >
+77-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-64:19
+77-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:18-80
+78            <intent-filter>
+78-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:29
+79                <action android:name="android.accounts.AccountAuthenticator" />
+79-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-80
+79-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:25-77
+80            </intent-filter>
+81
+82            <meta-data
+82-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-63:57
+83                android:name="android.accounts.AccountAuthenticator"
+83-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-69
+84                android:resource="@xml/authenticator" />
+84-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-54
+85        </service>
+86
+87        <provider
+87-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-70:39
+88            android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
+88-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-87
+89            android:authorities="@string/mauron85_bgloc_content_authority"
+89-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-75
+90            android:exported="false"
+90-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-37
+91            android:syncable="true" />
+91-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-36
+92
+93        <service
+93-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-75:40
+94            android:name="com.marianhello.bgloc.service.LocationServiceImpl"
+94-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-77
+95            android:enabled="true"
+95-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-35
+96            android:exported="false" />
+96-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-37
+97        <service
+97-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-79:40
+98            android:name="com.marianhello.bgloc.react.headless.HeadlessService"
+98-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-80
 99            android:enabled="true"
-99-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-100            android:exported="false" >
-100-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-101        </receiver>
+99-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-35
+100            android:exported="false" />
+100-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-37
+101
 102        <receiver
-102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-103            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+102-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:9-88:20
+103            android:name="com.marianhello.bgloc.BootCompletedReceiver"
+103-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-71
 104            android:enabled="true"
-104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-105            android:exported="true"
-105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-106            android:permission="android.permission.INSTALL_PACKAGES" >
-106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-107            <intent-filter>
-107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-108                <action android:name="com.android.vending.INSTALL_REFERRER" />
-108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-109            </intent-filter>
-110        </receiver>
-111
-112        <service
-112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-113            android:name="com.google.android.gms.measurement.AppMeasurementService"
-113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-114            android:enabled="true"
-114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-115            android:exported="false" />
-115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-116        <service
-116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-117            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-118            android:enabled="true"
-118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-119            android:exported="false"
-119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-120            android:permission="android.permission.BIND_JOB_SERVICE" />
-120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-121
-122        <meta-data
-122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-123            android:name="com.google.android.gms.version"
-123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-124            android:value="@integer/google_play_services_version" />
-124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-125    </application>
-126
-127</manifest>
+104-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-35
+105            android:exported="true" >
+105-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-36
+106            <intent-filter>
+106-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-87:29
+107                <action android:name="android.intent.action.BOOT_COMPLETED" />
+107-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:17-79
+107-->[:@mauron85_react-native-background-geolocation] C:\Users\Vladislav\Desktop\golovnin react\MapAlarm\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:25-76
+108            </intent-filter>
+109        </receiver>
+110
+111        <activity
+111-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+112            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+112-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+113            android:excludeFromRecents="true"
+113-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+114            android:exported="true"
+114-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+115            android:launchMode="singleTask"
+115-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+116            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+116-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+118
+119        <service
+119-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+120            android:name="com.google.firebase.components.ComponentDiscoveryService"
+120-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+122            <meta-data
+122-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+123-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\fdf3a33fd45fbde504e8f20e2e977ecc\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\b6041a0d652e7907d747b31e6de59c38\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+129-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+131        </service>
+132
+133        <receiver
+133-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+134            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+134-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+135            android:exported="true"
+135-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+136            android:permission="com.google.android.c2dm.permission.SEND" >
+136-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+137            <intent-filter>
+137-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+138-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\ac5fc20c2be26a21437b927f138d746c\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+139            </intent-filter>
+140        </receiver>
+141
+142        <activity
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\0cf63e71d49d43fdcd6ae40edf26684c\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+149            android:authorities="com.mapalarm.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+150            android:exported="false"
+150-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+151            android:initOrder="100" />
+151-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\e78de48cfdb44b37447ca57fcd0751c5\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+152
+153        <receiver
+153-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+154            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+154-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+155            android:enabled="true"
+155-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+156            android:exported="false" >
+156-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+157        </receiver>
+158        <receiver
+158-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+159            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+159-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+161            android:exported="true"
+161-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+162            android:permission="android.permission.INSTALL_PACKAGES" >
+162-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+163            <intent-filter>
+163-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+164                <action android:name="com.android.vending.INSTALL_REFERRER" />
+164-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+164-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+165            </intent-filter>
+166        </receiver>
+167
+168        <service
+168-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+169            android:name="com.google.android.gms.measurement.AppMeasurementService"
+169-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+171            android:exported="false" />
+171-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+172        <service
+172-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+173            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+173-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+176            android:permission="android.permission.BIND_JOB_SERVICE" />
+176-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\d0108eff3f089fca8e866877c05665c7\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\606e4eb6adf8f8e51396b632442e6d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+181
+182        <activity
+182-->[com.intentfilter:android-permissions:0.1.7] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\4ca6b59fed1738686dc721500aed8476\jetified-android-permissions-0.1.7\AndroidManifest.xml:12:9-15:59
+183            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+183-->[com.intentfilter:android-permissions:0.1.7] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\4ca6b59fed1738686dc721500aed8476\jetified-android-permissions-0.1.7\AndroidManifest.xml:13:13-83
+184            android:excludeFromRecents="true"
+184-->[com.intentfilter:android-permissions:0.1.7] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\4ca6b59fed1738686dc721500aed8476\jetified-android-permissions-0.1.7\AndroidManifest.xml:14:13-46
+185            android:theme="@style/AppTheme.Transparent" />
+185-->[com.intentfilter:android-permissions:0.1.7] C:\Users\Vladislav\.gradle\caches\transforms-2\files-2.1\4ca6b59fed1738686dc721500aed8476\jetified-android-permissions-0.1.7\AndroidManifest.xml:15:13-56
+186    </application>
+187
+188</manifest>

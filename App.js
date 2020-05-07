@@ -19,6 +19,7 @@ import {Button, Root, Header} from 'native-base';
 import Alarm from './Model/Alarm';
 import Database from './Model/Database';
 
+
 // const [initializing, setInitializing] = useState(true);
 // const [user, setUser] = useState();
 

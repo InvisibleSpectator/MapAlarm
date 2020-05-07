@@ -32,10 +32,9 @@ export default class EditAlarmCoordinatesMap extends React.Component {
       <MapView
         style={{flex: 1}}
         initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
-          latitudeDelta: 0,
-          longitudeDelta: 0,
+          ...this.props.route.params.initCoords,
+          latitudeDelta: 0.01,
+          longitudeDelta: 0.01,
         }}
         onPress={e => {
           this.props.route.params.getCoords(e.nativeEvent.coordinate);

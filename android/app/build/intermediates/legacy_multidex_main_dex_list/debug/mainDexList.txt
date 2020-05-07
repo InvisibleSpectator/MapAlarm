@@ -122,6 +122,8 @@ androidx/viewpager/widget/ViewPager$DecorView.class
 androidx/viewpager2/widget/ViewPager2$OffscreenPageLimit.class
 androidx/viewpager2/widget/ViewPager2$Orientation.class
 androidx/viewpager2/widget/ViewPager2$ScrollState.class
+ch/qos/logback/core/joran/spi/DefaultClass.class
+ch/qos/logback/core/joran/spi/NoAutoStart.class
 com/facebook/cache/disk/DefaultDiskStorage$FileType.class
 com/facebook/common/internal/DoNotStrip.class
 com/facebook/common/internal/Objects.class
@@ -286,6 +288,7 @@ com/google/firebase/platforminfo/LibraryVersion.class
 com/mapalarm/BuildConfig.class
 com/mapalarm/MainApplication$1.class
 com/mapalarm/MainApplication.class
+com/marianhello/bgloc/service/CommandId.class
 com/swmansion/reanimated/MapUtils.class
 com/swmansion/rnscreens/ScreenStackHeaderConfigViewManager.class
 com/th3rdwave/safeareacontext/SafeAreaContextPackage.class

@@ -3,8 +3,8 @@ import React from 'react';
 import {View} from 'react-native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
-
 import DrawerContent from './Components/DrawerContent';
+import GPSbackground from './Components/GPSbackground';
 
 import {
   Container,
@@ -22,7 +22,7 @@ import {
   Fab,
 } from 'native-base';
 
-import MapView, {Marker, Callout} from 'react-native-maps';
+import MapView, {Marker, Callout, Overlay} from 'react-native-maps';
 import Alarm from '../Model/Alarm';
 import Database from '../Model/Database';
 import MapAlarmCard from './Components/MapAlarmCard';
@@ -35,8 +35,27 @@ import MapAlarmCard from './Components/MapAlarmCard';
 export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {alarms: []};
+    this.state = {
+      alarms: [],
+      coordinates: {latitude: 0, longitude: 0},
+      rotation: 0,
+    };
     this.getAlarms = this.getAlarms.bind(this);
+    // Geolocation.getCurrentPosition(
+    //   info => {
+    //     console.log(info);
+    //   },
+    //   info => {
+    //     console.log(info);
+    //   },
+    //   {
+    //     enableHighAccuracy: true,
+    //     maximumAge: 10000,
+    //   },
+    // );
+    // Geolocation.watchPosition((...params) => {
+    //   console.log(...params);
+    // });
     Database.selectAll(this.getAlarms);
   }
 
@@ -45,6 +64,10 @@ export default class HomeScreen extends React.Component {
       return {...state, alarms: a};
     });
   }
+
+  // componentWillUnmount() {
+  //   Geolocation.stopObserving();
+  // }
 
   closeDrawer = () => {
     this.drawer._root.close();
@@ -81,13 +104,28 @@ export default class HomeScreen extends React.Component {
                 latitudeDelta: 0,
                 longitudeDelta: 0,
               };
-              console.log(region);
               this.closeDrawer();
               this.map.animateToRegion(region, 1);
             }}
           />
         }
         onClose={() => this.closeDrawer()}>
+        <GPSbackground
+          config={{distance: 50, sendInterval: 20}}
+          getCoords={coords => {
+            this.setState({
+              coordinates: {
+                latitude: coords.latitude,
+                longitude: coords.longitude,
+              },
+              rotation: coords.rotation,
+            });
+            this.map.animateToRegion(
+              {...coords, latitudeDelta: 0.01, longitudeDelta: 0.01},
+              1,
+            );
+          }}
+        />
         <Container>
           <Header>
             <Left>
@@ -104,10 +142,9 @@ export default class HomeScreen extends React.Component {
             }}
             style={{flex: 1}}
             initialRegion={{
-              latitude: 37.78825,
-              longitude: -122.4324,
-              latitudeDelta: 0.0922,
-              longitudeDelta: 0.0421,
+              ...this.state.coordinates,
+              latitudeDelta: 0.01,
+              longitudeDelta: 0.01,
             }}>
             {this.state.alarms
               .filter(alarm => alarm.isActive && alarm.isLocationBound)
@@ -122,11 +159,22 @@ export default class HomeScreen extends React.Component {
                   onEdit={this.editorFunction}
                 />
               ))}
+            <Marker
+              image={
+                'https://yastatic.net/s3/home/covid/big/covid_rus_icon.svg'
+              }
+              coordinate={this.state.coordinates}
+              rotation={this.state.rotation}>
+              <Icon type="MaterialIcons" name="navigation" />
+            </Marker>
           </MapView>
           <Fab
             onPress={() => {
               this.props.navigation.navigate('Edit', {
-                alarm: JSON.stringify(new Alarm()),
+                alarm: JSON.stringify({
+                  ...new Alarm(),
+                  location: this.state.coordinates,
+                }),
                 ret: this.editorFunction,
               });
             }}>

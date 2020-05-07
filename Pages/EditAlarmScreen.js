@@ -114,6 +114,7 @@ export default class EditAlarmScreen extends React.Component {
                   getCoords: coords => {
                     this.setState({location: coords});
                   },
+                  initCoords: this.state.location,
                 });
               }
             }}>

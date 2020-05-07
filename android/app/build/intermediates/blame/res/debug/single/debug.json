@@ -268,6 +268,10 @@
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_syncadapter.xml.flat",
+        "source": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\node_modules\\@mauron85\\react-native-background-geolocation\\android\\lib\\build\\intermediates\\packaged_res\\debug\\xml\\syncadapter.xml"
+    },
+    {
         "merged": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -1570,6 +1574,10 @@
     {
         "merged": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Vladislav\\.gradle\\caches\\transforms-2\\files-2.1\\47e0adf203933c04412ed1ee86f632f6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_authenticator.xml.flat",
+        "source": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\node_modules\\@mauron85\\react-native-background-geolocation\\android\\lib\\build\\intermediates\\packaged_res\\debug\\xml\\authenticator.xml"
     },
     {
         "merged": "C:\\Users\\Vladislav\\Desktop\\golovnin react\\MapAlarm\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",

@@ -2012,9 +2012,13 @@ string icon_content_description
 string image_description
 string imagebutton_description
 string link_description
+string mauron85_bgloc_account_name
+string mauron85_bgloc_account_type
+string mauron85_bgloc_content_authority
 string menu_description
 string menubar_description
 string menuitem_description
+string message_permission_required
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2072,6 +2076,7 @@ string status_bar_notification_info_overflow
 string summary_description
 string tablist_description
 string timer_description
+string title_permission_required
 string toolbar_description
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2083,6 +2088,7 @@ style Animation_Catalyst_RedBox
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_Transparent
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -2863,8 +2869,10 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml authenticator
 xml rn_dev_preferences
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
 xml standalone_badge_gravity_top_start
+xml syncadapter
