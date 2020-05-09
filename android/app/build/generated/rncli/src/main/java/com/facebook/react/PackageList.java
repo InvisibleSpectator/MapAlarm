@@ -17,6 +17,8 @@ import com.marianhello.bgloc.react.BackgroundGeolocationPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/checkbox
 import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
+// @react-native-community/datetimepicker
+import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 // @react-native-community/geolocation
 import com.reactnativecommunity.geolocation.GeolocationPackage;
 // @react-native-community/masked-view
@@ -91,6 +93,7 @@ public class PackageList {
       new BackgroundGeolocationPackage(),
       new AsyncStoragePackage(),
       new ReactCheckBoxPackage(),
+      new RNDateTimePickerPackage(),
       new GeolocationPackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),

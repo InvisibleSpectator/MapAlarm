@@ -13,13 +13,15 @@ import {
   Right,
   Drawer,
   Fab,
+  StyleProvider,
 } from 'native-base';
 
 import MapView, {Marker} from 'react-native-maps';
 import Alarm from '../Model/Alarm';
 import Database from '../Model/Database';
 import MapAlarmCard from './Components/MapAlarmCard';
-
+import colors from '../native-base-theme/variables/commonColor';
+import getTheme from '../native-base-theme/components';
 // const Drawer = createDrawerNavigator();
 // function MapScreen() {
 //   return <View />;
@@ -78,103 +80,106 @@ export default class HomeScreen extends React.Component {
 
   render() {
     return (
-      <Drawer
-        ref={ref => {
-          this.drawer = ref;
-        }}
-        content={
-          <DrawerContent
-            navigator={this.navigator}
-            navigation={this.props.navigation}
-            alarms={this.state.alarms}
-            onDelete={() => {
-              Database.selectAll(this.getAlarms);
-            }}
-            onEdit={this.editorFunction}
-            onSelect={coords => {
-              let region = {
-                ...coords,
-                latitudeDelta: 0,
-                longitudeDelta: 0,
-              };
-              this.closeDrawer();
-              this.map.animateToRegion(region, 1);
+      <StyleProvider style={getTheme(colors)}>
+        <Drawer
+          ref={ref => {
+            this.drawer = ref;
+          }}
+          content={
+            <DrawerContent
+              navigator={this.navigator}
+              navigation={this.props.navigation}
+              alarms={this.state.alarms}
+              onDelete={() => {
+                Database.selectAll(this.getAlarms);
+              }}
+              onEdit={this.editorFunction}
+              onSelect={coords => {
+                let region = {
+                  ...coords,
+                  latitudeDelta: 0,
+                  longitudeDelta: 0,
+                };
+                this.closeDrawer();
+                this.map.animateToRegion(region, 1);
+              }}
+            />
+          }
+          onClose={() => this.closeDrawer()}>
+          <GPSbackground
+            config={{distance: 50, sendInterval: 20}}
+            getCoords={coords => {
+              this.setState({
+                coordinates: {
+                  latitude: coords.latitude,
+                  longitude: coords.longitude,
+                },
+                rotation: coords.rotation,
+              });
+              this.map.animateToRegion(
+                {...coords, latitudeDelta: 0.01, longitudeDelta: 0.01},
+                1,
+              );
             }}
           />
-        }
-        onClose={() => this.closeDrawer()}>
-        <GPSbackground
-          config={{distance: 50, sendInterval: 20}}
-          getCoords={coords => {
-            this.setState({
-              coordinates: {
-                latitude: coords.latitude,
-                longitude: coords.longitude,
-              },
-              rotation: coords.rotation,
-            });
-            this.map.animateToRegion(
-              {...coords, latitudeDelta: 0.01, longitudeDelta: 0.01},
-              1,
-            );
-          }}
-        />
-        <Container>
-          <Header>
-            <Left>
-              <Button transparent onPress={() => this.openDrawer()}>
-                <Icon type="MaterialIcons" name="menu" />
-              </Button>
-            </Left>
-            <Body />
-            <Right />
-          </Header>
-          <MapView
-            ref={ref => {
-              this.map = ref;
-            }}
-            style={{flex: 1}}
-            initialRegion={{
-              ...this.state.coordinates,
-              latitudeDelta: 0.01,
-              longitudeDelta: 0.01,
-            }}>
-            {this.state.alarms
-              .filter(alarm => alarm.isActive && alarm.isLocationBound)
-              .map(alarm => (
-                <MapAlarmCard
-                  key={JSON.stringify(alarm)}
-                  navigation={this.props.navigation}
-                  alarm={alarm}
-                  onDelete={() => {
-                    Database.selectAll(this.getAlarms);
-                  }}
-                  onEdit={this.editorFunction}
-                />
-              ))}
-            <Marker
-              image={
-                'https://yastatic.net/s3/home/covid/big/covid_rus_icon.svg'
-              }
-              coordinate={this.state.coordinates}
-              rotation={this.state.rotation}>
-              <Icon type="MaterialIcons" name="navigation" />
-            </Marker>
-          </MapView>
-          <Fab
-            onPress={() => {
-              this.props.navigation.navigate('Edit', {
-                alarm: JSON.stringify({
-                  ...new Alarm(),
-                  location: this.state.coordinates,
-                }),
-                ret: this.editorFunction,
-              });
-            }}>
-            <Icon type="MaterialIcons" name="add" />
-          </Fab>
-        </Container>
-      </Drawer>
+          <Container>
+            <Header style={{backgroundColor:'#32505C'}}>
+              <Left>
+                <Button transparent onPress={() => this.openDrawer()}>
+                  <Icon type="MaterialIcons" name="menu" />
+                </Button>
+              </Left>
+              <Body />
+              <Right />
+            </Header>
+            <MapView
+              ref={ref => {
+                this.map = ref;
+              }}
+              style={{flex: 1}}
+              initialRegion={{
+                ...this.state.coordinates,
+                latitudeDelta: 0.01,
+                longitudeDelta: 0.01,
+              }}>
+              {this.state.alarms
+                .filter(alarm => alarm.isActive && alarm.isLocationBound)
+                .map(alarm => (
+                  <MapAlarmCard
+                    key={JSON.stringify(alarm)}
+                    navigation={this.props.navigation}
+                    alarm={alarm}
+                    onDelete={() => {
+                      Database.selectAll(this.getAlarms);
+                    }}
+                    onEdit={this.editorFunction}
+                  />
+                ))}
+              <Marker
+                image={
+                  'https://yastatic.net/s3/home/covid/big/covid_rus_icon.svg'
+                }
+                coordinate={this.state.coordinates}
+                rotation={this.state.rotation}>
+                <Icon type="MaterialIcons" name="navigation" />
+              </Marker>
+            </MapView>
+            <Fab
+            style={{backgroundColor:'#32505C'}}
+              onPress={() => {
+                this.props.navigation.navigate('Edit', {
+                  alarm: JSON.stringify({
+                    ...new Alarm(),
+                    location: this.state.coordinates,
+                  }),
+                  ret: this.editorFunction,
+                });
+              }}>
+              <Icon type="MaterialIcons" name="add" />
+            </Fab>
+          </Container>
+        </Drawer>
+      </StyleProvider>
     );
   }
 }

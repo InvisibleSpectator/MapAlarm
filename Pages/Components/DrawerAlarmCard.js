@@ -30,6 +30,7 @@ export default class DrawerAlarmCArd extends React.Component {
         <CardItem>
           <Button
             icon
+            transparent
             onPress={() => {
               Database.deleteAlarm(this.props.alarm.id, this.props.onDelete);
             }}>
@@ -37,6 +38,7 @@ export default class DrawerAlarmCArd extends React.Component {
           </Button>
           <Button
             icon
+            transparent
             onPress={() => {
               this.props.navigation.navigate('Edit', {
                 alarm: JSON.stringify(this.props.alarm),
