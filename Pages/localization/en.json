@@ -1,0 +1,20 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "time":"Time",
+  "name":"Name",
+  "description":"Description",
+  "sign_in":"Sign In",
+  "create_account":"Create Account",
+  "Monday":"Monday",
+  "Tuesday":"Tuesday",
+  "Wednesday":"Wednesday",
+  "Thursday":"Thursday",
+  "Friday":"Friday",
+  "Saturday":"Saturday",
+  "Sunday":"Sunday",
+  "active":"Activity",
+  "located":"Is located",
+  "latitude":"Latitude",
+  "longitude":"Longitude"
+}

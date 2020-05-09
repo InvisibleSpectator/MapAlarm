@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @mauron85/react-native-background-geolocation
 import com.marianhello.bgloc.react.BackgroundGeolocationPackage;
+// @react-native-community/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/checkbox
 import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 // @react-native-community/geolocation
@@ -25,6 +27,8 @@ import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-i18n
+import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 // react-native-maps
 import com.airbnb.android.react.maps.MapsPackage;
 // react-native-reanimated
@@ -85,12 +89,14 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new BackgroundGeolocationPackage(),
+      new AsyncStoragePackage(),
       new ReactCheckBoxPackage(),
       new GeolocationPackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
       new RNGestureHandlerPackage(),
+      new RNI18nPackage(),
       new MapsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

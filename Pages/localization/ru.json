@@ -1,0 +1,20 @@
+{
+  "email": "Почта",
+  "password": "Пароль",
+  "time":"Время",
+  "name":"Имя",
+  "description":"Описание",
+  "sign_in":"Войти",
+  "create_account":"Зарегистрироваться",
+  "Monday":"Понедельник",
+  "Tuesday":"Вторник",
+  "Wednesday":"Среда",
+  "Thursday":"Четверг",
+  "Friday":"Пятница",
+  "Saturday":"Суббота",
+  "Sunday":"Воскресенье",
+  "active":"Активность",
+  "located":"Геопривязка",
+  "latitude":"Широта",
+  "longitude":"Долгота"
+}

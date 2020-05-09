@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  View,
   Container,
   Button,
   Icon,
@@ -18,10 +17,9 @@ import {
   CheckBox,
   Switch,
 } from 'native-base';
-import {BaseRouter} from '@react-navigation/native';
-import {format, isThisSecond} from 'date-fns';
 import TimePicker from 'react-native-simple-time-picker';
 import Database from '../Model/Database';
+import I18n from 'react-native-i18n';
 
 export default class EditAlarmScreen extends React.Component {
   constructor(props) {
@@ -46,20 +44,20 @@ export default class EditAlarmScreen extends React.Component {
                 else
                   Database.updateAlarm(this.state, this.props.route.params.ret);
               }}>
-              <Icon name="check" />
+              <Icon type="MaterialIcons" name="done" />
             </Button>
           </Right>
         </Header>
         <Content>
           <Item floatingLabel>
-            <Label>Имя</Label>
+            <Label>{I18n.t('name')}</Label>
             <Input
               onChangeText={text => this.setState({name: text})}
               value={this.state.name}
             />
           </Item>
           <Item>
-            <Label>Время</Label>
+            <Label>{I18n.t('time')}</Label>
             <TimePicker
               selectedHours={new Date(this.state.time).getHours()}
               selectedMinutes={new Date(this.state.time).getMinutes()}
@@ -84,13 +82,13 @@ export default class EditAlarmScreen extends React.Component {
                   }}
                 />
                 <Body>
-                  <Text>{weekday.name}</Text>
+                  <Text>{I18n.t(weekday.name)}</Text>
                 </Body>
               </ListItem>
             );
           })}
           <Item style={{justifyContent: 'space-between'}}>
-            <Label>Активность</Label>
+            <Label>{I18n.t('active')}</Label>
             <Switch
               value={Boolean(this.state.isActive)}
               onChange={() => {
@@ -99,7 +97,7 @@ export default class EditAlarmScreen extends React.Component {
             />
           </Item>
           <Item style={{justifyContent: 'space-between'}}>
-            <Label>Геопривязка</Label>
+            <Label>{I18n.t('located')}</Label>
             <Switch
               value={Boolean(this.state.isLocationBound)}
               onChange={() => {
@@ -120,17 +118,21 @@ export default class EditAlarmScreen extends React.Component {
             }}>
             <Input
               disabled
-              placeholder={`Широта: ${this.state.location.latitude}`}
+              placeholder={`${I18n.t('latitude')}: ${
+                this.state.location.latitude
+              }`}
             />
             <Input
               disabled
-              placeholder={`Долгота: ${this.state.location.longitude}`}
+              placeholder={`${I18n.t('longitude')}: ${
+                this.state.location.longitude
+              }`}
             />
           </Item>
           <Textarea
             rowSpan={5}
             bordered
-            placeholder="Описание"
+            placeholder={I18n.t('description')}
             value={this.state.description}
             onChangeText={text => this.setState({description: text})}
           />

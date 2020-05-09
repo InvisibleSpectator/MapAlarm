@@ -1,8 +1,8 @@
 import auth from '@react-native-firebase/auth';
 import React from 'react';
-import {View, TextInput, Button} from 'react-native';
+import {View, Button} from 'react-native';
 import {Toast, Input, Item, Label, Icon} from 'native-base';
-
+import I18n from 'react-native-i18n';
 export default class LoginScreen extends React.Component {
   state = {email: '', password: '', currentUser: auth().currentUser};
 
@@ -27,7 +27,7 @@ export default class LoginScreen extends React.Component {
           floatingLabel
           success={this.state.email.length > 0 && isEmail}
           error={this.state.email.length > 0 && !isEmail}>
-          <Label>email</Label>
+          <Label>{I18n.t('email')}</Label>
           <Input
             onChangeText={email =>
               this.setState({email: email.replace(/\s+/g, ' ').trim()})
@@ -47,7 +47,7 @@ export default class LoginScreen extends React.Component {
           floatingLabel
           success={this.state.password.length > 0 && isPasswordGood}
           error={this.state.password.length > 0 && !isPasswordGood}>
-          <Label>password</Label>
+          <Label>{I18n.t('password')}</Label>
           <Input
             secureTextEntry
             onChangeText={password =>
@@ -65,7 +65,7 @@ export default class LoginScreen extends React.Component {
           })()}
         </Item>
         <Button
-          title="Зарегистрироваться"
+          title={I18n.t('create_account')}
           // onPress={() => this.props.navigation.navigate('Home')}
           disabled={!(isPasswordGood && isEmail)}
           onPress={() => {
@@ -84,7 +84,7 @@ export default class LoginScreen extends React.Component {
           }}
         />
         <Button
-          title="Войти"
+          title={I18n.t('sign_in')}
           disabled={!(isPasswordGood && isEmail)}
           onPress={() =>
             auth()

@@ -6,24 +6,32 @@
  * @flow strict-local
  */
 
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator, HeaderTitle} from '@react-navigation/stack';
+import {createStackNavigator} from '@react-navigation/stack';
 
 import LoginScreen from './Pages/LoginScreen';
 import HomeScreen from './Pages/HomeScreen';
 import EditAlarmScreen from './Pages/EditAlarmScreen';
 import EditAlarmCoordinatesMap from './Pages/EditAlarmCoordinatesMap';
-import {Button, Root, Header} from 'native-base';
-import Alarm from './Model/Alarm';
+import {Root} from 'native-base';
 import Database from './Model/Database';
-
-
+import I18n from 'react-native-i18n';
+import en from './Pages/localization/en.json';
+import ru from './Pages/localization/ru.json';
 // const [initializing, setInitializing] = useState(true);
 // const [user, setUser] = useState();
 
 const Stack = createStackNavigator();
+
+I18n.fallbacks = true;
+
+I18n.translations = {
+  en,
+  ru,
+};
+
 class App extends React.Component {
   constructor() {
     super();
