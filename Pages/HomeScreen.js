@@ -1,8 +1,5 @@
 import React from 'react';
 
-import {View} from 'react-native';
-import {createDrawerNavigator} from '@react-navigation/drawer';
-import {NavigationContainer} from '@react-navigation/native';
 import DrawerContent from './Components/DrawerContent';
 import GPSbackground from './Components/GPSbackground';
 
@@ -14,15 +11,11 @@ import {
   Button,
   Body,
   Right,
-  Content,
   Drawer,
-  Card,
-  CardItem,
-  Text,
   Fab,
 } from 'native-base';
 
-import MapView, {Marker, Callout, Overlay} from 'react-native-maps';
+import MapView, {Marker} from 'react-native-maps';
 import Alarm from '../Model/Alarm';
 import Database from '../Model/Database';
 import MapAlarmCard from './Components/MapAlarmCard';
