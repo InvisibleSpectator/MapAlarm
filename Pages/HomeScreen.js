@@ -116,14 +116,10 @@ export default class HomeScreen extends React.Component {
                 },
                 rotation: coords.rotation,
               });
-              this.map.animateToRegion(
-                {...coords, latitudeDelta: 0.01, longitudeDelta: 0.01},
-                1,
-              );
             }}
           />
           <Container>
-            <Header style={{backgroundColor:'#32505C'}}>
+            <Header style={{backgroundColor: '#32505C'}}>
               <Left>
                 <Button transparent onPress={() => this.openDrawer()}>
                   <Icon type="MaterialIcons" name="menu" />
@@ -133,6 +129,9 @@ export default class HomeScreen extends React.Component {
               <Right />
             </Header>
             <MapView
+
+              showsUserLocation
+              followsUserLocation={true}
               ref={ref => {
                 this.map = ref;
               }}
@@ -155,17 +154,9 @@ export default class HomeScreen extends React.Component {
                     onEdit={this.editorFunction}
                   />
                 ))}
-              <Marker
-                image={
-                  'https://yastatic.net/s3/home/covid/big/covid_rus_icon.svg'
-                }
-                coordinate={this.state.coordinates}
-                rotation={this.state.rotation}>
-                <Icon type="MaterialIcons" name="navigation" />
-              </Marker>
             </MapView>
             <Fab
-            style={{backgroundColor:'#32505C'}}
+              style={{backgroundColor: '#32505C'}}
               onPress={() => {
                 this.props.navigation.navigate('Edit', {
                   alarm: JSON.stringify({

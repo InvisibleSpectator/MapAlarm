@@ -45,6 +45,8 @@ import dog.craftz.sqlite_2.RNSqlite2Package;
 import org.pgsqlite.SQLitePluginPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
+// react-native-alarm-location-amik
+import com.reactlibraryamik.RNToastLibraryTestPackage;
 
 public class PackageList {
   private Application application;
@@ -106,7 +108,8 @@ public class PackageList {
       new RNScreensPackage(),
       new RNSqlite2Package(),
       new SQLitePluginPackage(),
-      new VectorIconsPackage()
+      new VectorIconsPackage(),
+      new RNToastLibraryTestPackage()
     ));
   }
 }
