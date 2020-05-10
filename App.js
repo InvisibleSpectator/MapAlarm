@@ -43,7 +43,7 @@ class App extends React.Component {
     return (
       <Root>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Login" headerMode="none">
+          <Stack.Navigator initialRouteName="Home" headerMode="none">
             <Stack.Screen name="Login" component={LoginScreen} />
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="Edit" component={EditAlarmScreen} />

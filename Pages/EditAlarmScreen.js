@@ -23,6 +23,7 @@ import {format} from 'date-fns';
 import Database from '../Model/Database';
 import I18n from 'react-native-i18n';
 import DateTimePicker from '@react-native-community/datetimepicker';
+import RNToastLibraryTest from 'react-native-alarm-location-amik';
 
 export default class EditAlarmScreen extends React.Component {
   constructor(props) {
@@ -48,12 +49,24 @@ export default class EditAlarmScreen extends React.Component {
                 if (this.state.alarm.id === 0)
                   Database.addAlarm(
                     this.state.alarm,
-                    this.props.route.params.ret,
+                    insertedId => {
+                      Database.getById(insertedId, insertedAlarm => {
+                        insertedAlarm.time = new Date(insertedAlarm.time).getHours() + ":" + new Date(insertedAlarm.time).getMinutes();
+                        RNToastLibraryTest.schedule(JSON.stringify(insertedAlarm));
+                        this.props.route.params.ret();
+                      })
+                    }
                   );
                 else
                   Database.updateAlarm(
                     this.state.alarm,
-                    this.props.route.params.ret,
+                    () => {
+                      Database.getById(this.state.alarm.id, updatedAlarm => {
+                        updatedAlarm.time = new Date(updatedAlarm.time).getHours() + ":" + new Date(updatedAlarm.time).getMinutes();
+                        RNToastLibraryTest.schedule(JSON.stringify(updatedAlarm));
+                        this.props.route.params.ret();
+                      });
+                    }
                   );
               }}>
               <Icon type="MaterialIcons" name="done" />

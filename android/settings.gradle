@@ -1,4 +1,6 @@
 rootProject.name = 'MapAlarm'
+include ':react-native-alarm-location-amik'
+project(':react-native-alarm-location-amik').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-alarm-location-amik/android')
 include ':@mauron85_react-native-background-geolocation-common'
 project(':@mauron85_react-native-background-geolocation-common').projectDir = new File(rootProject.projectDir, '../node_modules/@mauron85/react-native-background-geolocation/android/common')
 include ':@mauron85_react-native-background-geolocation'

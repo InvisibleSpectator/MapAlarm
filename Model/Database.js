@@ -67,7 +67,7 @@ export default class Database {
         temp,
         (tx, results) => {
           console.log('Results', results.rowsAffected);
-          callback();
+          callback(results.insertId);
         },
         (tx, error) => {
           console.log('Error', error);
@@ -115,6 +115,21 @@ export default class Database {
     this.db.transaction(txn => {
       txn.executeSql('DELETE FROM alarms where id=?', [id], (tx, results) => {
         callback();
+      });
+    });
+  }
+
+  static getById(id, callback){
+    this.db.transaction(txn => {
+      txn.executeSql('SELECT * FROM alarms where id=?', [id], (tx, results) => {
+        if (results.rows.length > 0){
+          let alarm = results.rows.item(0);
+          alarm.options = JSON.parse(alarm.options);
+          alarm.location = JSON.parse(alarm.location);
+          callback(alarm);
+        } else {
+          console.log("no object with id = " + id);
+        }
       });
     });
   }

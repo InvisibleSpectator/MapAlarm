@@ -2,6 +2,7 @@ import React from 'react';
 import {Card, CardItem, Text, Switch, Icon, Button} from 'native-base';
 import {format} from 'date-fns';
 import Database from '../../Model/Database';
+import RNToastLibraryTest from 'react-native-alarm-location-amik';
 
 export default class DrawerAlarmCArd extends React.Component {
   constructor(props) {
@@ -32,7 +33,11 @@ export default class DrawerAlarmCArd extends React.Component {
             icon
             transparent
             onPress={() => {
-              Database.deleteAlarm(this.props.alarm.id, this.props.onDelete);
+              Database.getById(this.props.alarm.id, alarmToRemove => {
+                alarmToRemove.time = new Date(alarmToRemove.time).getHours() + ":" + new Date(alarmToRemove.time).getMinutes();
+                RNToastLibraryTest.unschedule(JSON.stringify(updatedAlarm));
+                Database.deleteAlarm(this.props.alarm.id, this.props.onDelete);
+              });
             }}>
             <Icon type="MaterialIcons" name="delete" />
           </Button>
@@ -57,7 +62,13 @@ export default class DrawerAlarmCArd extends React.Component {
                   time: this.state.time.getTime(),
                   isActive: !this.state.isActive,
                 },
-                this.props.onDelete,
+                () => {
+                  Database.getById(this.props.alarm.id, updatedAlarm => {
+                    updatedAlarm.time = new Date(updatedAlarm.time).getHours() + ":" + new Date(updatedAlarm.time).getMinutes();
+                    RNToastLibraryTest.schedule(JSON.stringify(updatedAlarm));
+                    this.props.onDelete();
+                  });
+                }
               );
             }}
           />
