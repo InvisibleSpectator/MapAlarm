@@ -47,27 +47,29 @@ export default class EditAlarmScreen extends React.Component {
               transparent
               onPress={() => {
                 if (this.state.alarm.id === 0)
-                  Database.addAlarm(
-                    this.state.alarm,
-                    insertedId => {
-                      Database.getById(insertedId, insertedAlarm => {
-                        insertedAlarm.time = new Date(insertedAlarm.time).getHours() + ":" + new Date(insertedAlarm.time).getMinutes();
-                        RNToastLibraryTest.schedule(JSON.stringify(insertedAlarm));
-                        this.props.route.params.ret();
-                      })
-                    }
-                  );
+                  Database.addAlarm(this.state.alarm, insertedId => {
+                    Database.getById(insertedId, insertedAlarm => {
+                      insertedAlarm.time =
+                        new Date(insertedAlarm.time).getHours() +
+                        ':' +
+                        new Date(insertedAlarm.time).getMinutes();
+                      RNToastLibraryTest.schedule(
+                        JSON.stringify(insertedAlarm),
+                      );
+                      this.props.route.params.ret();
+                    });
+                  });
                 else
-                  Database.updateAlarm(
-                    this.state.alarm,
-                    () => {
-                      Database.getById(this.state.alarm.id, updatedAlarm => {
-                        updatedAlarm.time = new Date(updatedAlarm.time).getHours() + ":" + new Date(updatedAlarm.time).getMinutes();
-                        RNToastLibraryTest.schedule(JSON.stringify(updatedAlarm));
-                        this.props.route.params.ret();
-                      });
-                    }
-                  );
+                  Database.updateAlarm(this.state.alarm, () => {
+                    Database.getById(this.state.alarm.id, updatedAlarm => {
+                      updatedAlarm.time =
+                        new Date(updatedAlarm.time).getHours() +
+                        ':' +
+                        new Date(updatedAlarm.time).getMinutes();
+                      RNToastLibraryTest.schedule(JSON.stringify(updatedAlarm));
+                      this.props.route.params.ret();
+                    });
+                  });
               }}>
               <Icon type="MaterialIcons" name="done" />
             </Button>
@@ -78,7 +80,16 @@ export default class EditAlarmScreen extends React.Component {
             <Item floatingLabel>
               <Label>{I18n.t('name')}</Label>
               <Input
-                onChangeText={text => this.setState({name: text})}
+                onChangeText={text =>
+                  this.setState(state => {
+                    return {
+                      alarm: {
+                        ...state.alarm,
+                        name: text,
+                      },
+                    };
+                  })
+                }
                 value={this.state.alarm.name}
               />
             </Item>
@@ -129,8 +140,13 @@ export default class EditAlarmScreen extends React.Component {
                   onPress={() => {
                     let tmp = this.state.alarm.options;
                     tmp[index].value = !tmp[index].value;
-                    this.setState({
-                      options: tmp,
+                    this.setState(state => {
+                      return {
+                        alarm: {
+                          ...state.alarm,
+                          options: tmp,
+                        },
+                      };
                     });
                   }}
                 />
@@ -145,7 +161,14 @@ export default class EditAlarmScreen extends React.Component {
             <Switch
               value={Boolean(this.state.alarm.isActive)}
               onChange={() => {
-                this.setState({isActive: !this.state.alarm.isActive});
+                this.setState(state => {
+                  return {
+                    alarm: {
+                      ...state.alarm,
+                      isActive: !this.state.alarm.isActive,
+                    },
+                  };
+                });
               }}
             />
           </ListItem>
@@ -154,8 +177,13 @@ export default class EditAlarmScreen extends React.Component {
             <Switch
               value={Boolean(this.state.alarm.isLocationBound)}
               onChange={() => {
-                this.setState({
-                  isLocationBound: !this.state.alarm.isLocationBound,
+                this.setState(state => {
+                  return {
+                    alarm: {
+                      ...state.alarm,
+                      isLocationBound: !this.state.alarm.isLocationBound,
+                    },
+                  };
                 });
               }}
             />
@@ -165,7 +193,14 @@ export default class EditAlarmScreen extends React.Component {
               if (this.state.alarm.isLocationBound) {
                 this.props.navigation.navigate('EditCoordinates', {
                   getCoords: coords => {
-                    this.setState({location: coords});
+                    this.setState(state => {
+                      return {
+                        alarm: {
+                          ...state.alarm,
+                          location: coords,
+                        },
+                      };
+                    });
                   },
                   initCoords: this.state.alarm.location,
                 });
@@ -191,7 +226,16 @@ export default class EditAlarmScreen extends React.Component {
               bordered
               placeholder={I18n.t('description')}
               value={this.state.alarm.description}
-              onChangeText={text => this.setState({description: text})}
+              onChangeText={text =>
+                this.setState(state => {
+                  return {
+                    alarm: {
+                      ...state.alarm,
+                      description: text,
+                    },
+                  };
+                })
+              }
             />
           </ListItem>
         </Content>
