@@ -30,6 +30,7 @@ export default class EditAlarmCoordinatesMap extends React.Component {
   render() {
     return (
       <MapView
+        showsUserLocation
         style={{flex: 1}}
         initialRegion={{
           ...this.props.route.params.initCoords,
