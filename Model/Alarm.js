@@ -6,31 +6,31 @@ export default class Alarm {
     this.options = [
       {
         name: 'Monday',
-        value: false,
+        value: true,
       },
       {
         name: 'Tuesday',
-        value: false,
+        value: true,
       },
       {
         name: 'Wednesday',
-        value: false,
+        value: true,
       },
       {
         name: 'Thursday',
-        value: false,
+        value: true,
       },
       {
         name: 'Friday',
-        value: false,
+        value: true,
       },
       {
         name: 'Saturday',
-        value: false,
+        value: true,
       },
       {
         name: 'Sunday',
-        value: false,
+        value: true,
       },
     ];
     this.isActive = true;

@@ -35,7 +35,7 @@ export default class DrawerAlarmCArd extends React.Component {
             onPress={() => {
               Database.getById(this.props.alarm.id, alarmToRemove => {
                 alarmToRemove.time = new Date(alarmToRemove.time).getHours() + ":" + new Date(alarmToRemove.time).getMinutes();
-                RNToastLibraryTest.unschedule(JSON.stringify(updatedAlarm));
+                RNToastLibraryTest.unschedule(JSON.stringify(alarmToRemove));
                 Database.deleteAlarm(this.props.alarm.id, this.props.onDelete);
               });
             }}>

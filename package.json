@@ -36,7 +36,7 @@
     "react-native-sqlite-2": "^3.0.1",
     "react-native-sqlite-storage": "^5.0.0",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-alarm-location-amik": "1.0.0"
+    "react-native-alarm-location-amik": "1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
